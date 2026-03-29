@@ -94,8 +94,8 @@ function finishExam() {
     
     let evaluation = "";
     if (finalScore >= 120) evaluation = "ยอดเยี่ยมที่สุด! เตรียมตัวเป็นว่าที่นายสิบตำรวจได้เลยครับ";
-    else if (finalScore >= 90) evaluation = "เก่งมากครับคุณเตอร์ ผ่านเกณฑ์พื้นฐานแล้ว ฝึกเพิ่มอีกนิดนะครับ";
-    else evaluation = "สู้ๆ ครับคุณเตอร์ กลับมาทบทวนข้อที่ผิดบ่อยๆ นะครับ!";
+    else if (finalScore >= 90) evaluation = "เก่งมากครับ ผ่านเกณฑ์พื้นฐานแล้ว ฝึกเพิ่มอีกนิดนะครับ";
+    else evaluation = "สู้ๆ ครับ กลับมาทบทวนข้อที่ผิดบ่อยๆ นะครับ!";
     
     document.getElementById("evaluation-text").innerText = evaluation;
 }
